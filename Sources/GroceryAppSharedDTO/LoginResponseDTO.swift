@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Login API end-point response DTO
 public struct LoginResponseDTO: Codable {
     public let error: Bool
     public var reason: String? = nil

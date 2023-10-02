@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Register API end-point response DTO
 public struct RegisterResponseDTO: Codable {
     public let error: Bool
     public var reason: String? = nil
